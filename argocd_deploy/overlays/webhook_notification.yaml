@@ -5,9 +5,9 @@ metadata:
   name: argocd-notifications-cm
 data:
   context: |
-    myUsername: "Jane Doe" # ADD HERE YOUR USERNAME
+    myUsername: "Jonas" # ADD HERE YOUR USERNAME
   service.webhook.webhook-site: |
-    url: "" # ADD HERE YOUR URL
+    url: "https://webhook.site/9dfc333f-af7b-4cbc-b9d2-e895fcb1b89f" # ADD HERE YOUR URL
     headers:
     - name: Content-Type
       value: application/json
